@@ -9,6 +9,10 @@ public class CardView extends JComponent {
     //public static final Color TEXT_COLOR = Color.BLACK;
     private String cardText;
 
+    public void setCardText(String cardText){
+        this.cardText = cardText;
+    }
+
     @Override
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
